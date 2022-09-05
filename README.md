@@ -48,3 +48,5 @@ This report needs to answer the following:
 6. Your top three recommendations based on your analysis
 
 
+
+Visualization of data can be found at : https://public.tableau.com/app/profile/nicholas.goray/viz/GoogleCapstoneHowtoNavigateSpeedySuccess/Sheet3
