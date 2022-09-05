@@ -1,4 +1,3 @@
-# Case Study 1
 # Case Study: How Does a Bike-Share Navigate Speedy Success?
 # this is my code for my google data analytics certificate, all the data is included in this file 
 
