@@ -1,7 +1,10 @@
-# Project Manager:Nicholas Donald Goray Github name: Nicholasontheroad 
-# this is my script for analysis of the cyclelic company for my google data analystics certification
-# Data Prepreation Phase
-#code provided by Google Data Analitic Certification instructor Kevin Hartman
+# Author:Nicholas Donald Goray Github name: Nicholasontheroad 
+# This is the code for my Google capstone project for my Google Data Analytics Career Certifcate
+# Completed 9/4/2022
+# Using data from : https://divvy-tripdata.s3.amazonaws.com/index.html License provided at : https://ride.divvybikes.com/data-license-agreement
+
+# Data Preparation Phase
+
 
 # first install required packages
 install.packages("tidyverse") #helps wrangle data
@@ -15,7 +18,7 @@ library(ggplot2)
 
 # set working directory and get working directory
 getwd() #displays your working directory
-setwd("C:/Users/Nicholas PC/Desktop/Google_cert_data/csv") #sets your working directory
+setwd("C:/Users/your user name /the folder of your project/csv") #sets your working directory
 
 # collect data, for this you want to use the last 12 months of data
 # data source: https://divvy-tripdata.s3.amazonaws.com/index.html
@@ -28,18 +31,18 @@ setwd("C:/Users/Nicholas PC/Desktop/Google_cert_data/csv") #sets your working di
 #they have to match perfectly in order for this to work
 
 
-tripdata_202108 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202108-divvy-tripdata.csv")
-tripdata_202109 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202109-divvy-tripdata.csv")
-tripdata_202110 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202110-divvy-tripdata.csv")
-tripdata_202111 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202111-divvy-tripdata.csv")
-tripdata_202112 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202112-divvy-tripdata.csv")
-tripdata_202201 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202201-divvy-tripdata.csv")
-tripdata_202202 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202202-divvy-tripdata.csv")
-tripdata_202203 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202203-divvy-tripdata.csv")
-tripdata_202204 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202204-divvy-tripdata.csv")
-tripdata_202205 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202205-divvy-tripdata.csv")
-tripdata_202206 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202206-divvy-tripdata.csv")
-tripdata_202207 <- read.csv("C:/Users/Nicholas PC/Desktop/google cert 2/csv/202207-divvy-tripdata.csv")
+tripdata_202108 <- read.csv("C:/Users/your user name /the folder of your project/csv/202108-divvy-tripdata.csv")
+tripdata_202109 <- read.csv("C:/Users/your user name /the folder of your project/csv/202109-divvy-tripdata.csv")
+tripdata_202110 <- read.csv("C:/Users/your user name /the folder of your project/csv/202110-divvy-tripdata.csv")
+tripdata_202111 <- read.csv("C:/Users/your user name /the folder of your project/csv/202111-divvy-tripdata.csv")
+tripdata_202112 <- read.csv("C:/Users/your user name /the folder of your project/csv/202112-divvy-tripdata.csv")
+tripdata_202201 <- read.csv("C:/Users/your user name /the folder of your project/csv/202201-divvy-tripdata.csv")
+tripdata_202202 <- read.csv("C:/Users/your user name /the folder of your project/csv/202202-divvy-tripdata.csv")
+tripdata_202203 <- read.csv("C:/Users/your user name /the folder of your project/csv/202203-divvy-tripdata.csv")
+tripdata_202204 <- read.csv("C:/Users/your user name /the folder of your project/csv/202204-divvy-tripdata.csv")
+tripdata_202205 <- read.csv("C:/Users/your user name /the folder of your project/csv/202205-divvy-tripdata.csv")
+tripdata_202206 <- read.csv("C:/Users/your user name /the folder of your project/csv/202206-divvy-tripdata.csv")
+tripdata_202207 <- read.csv("C:/Users/your user name /the folder of your project/csv/202207-divvy-tripdata.csv")
 
 
 
@@ -224,7 +227,15 @@ all_trips_v2 %>%
 
 
 counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
-write.csv(counts, file = "C:/Users/Nicholas PC/Desktop/Google_cert_data/avg_ride_length.csv")
+write.csv(counts, file = "C:/Users/your user name /the folder of your project/avg_ride_length.csv")
+
+
+
+
+
+
+
+
 
 
 
