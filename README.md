@@ -1,11 +1,12 @@
 # Case Study: How Does a Bike-Share Navigate Speedy Success?
-# this is my code for my google data analytics certificate, all the data is included in this file 
 
-Data analysis report:
 
 Case study for Cyclistic based out of Chicago.
 Author: Nicholas Donald Goray , in mentorship with the Google data analytics professional certificate.
 
+this is my code for my google data analytics certificate, all the data is included in this file 
+
+Data analysis report:
 
 
 Introduction:
