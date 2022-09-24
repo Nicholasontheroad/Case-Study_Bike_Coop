@@ -229,6 +229,8 @@ all_trips_v2 %>%
 counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
 write.csv(counts, file = "C:/Users/your user name /the folder of your project/avg_ride_length.csv")
 
+# now you can export your csv file into a tool for vizualization. just as Google sheets or excel or Tablelu 
+
 
 
 
